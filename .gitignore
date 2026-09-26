@@ -1,0 +1,46 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary cache
+/tmp/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local reports & presentation materials (excluded from public repo)
+reports/
+presentation/
+*.pdf
+
+# Local environment & Streamlit configuration
+.streamlit/
+.devcontainer/
+*.db
+*.sqlite
+
+# Scratch & one-off generator scripts
+align_cols.py
+assemble_final_workflow_boxes.py
+build_full_text_box.py
+fix_*.py
+generate_*.py
+test_*.py
+!test_pipeline.py
+
