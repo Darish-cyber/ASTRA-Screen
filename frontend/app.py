@@ -1487,7 +1487,7 @@ with tab_drift:
                 <ul style="margin: 0 0 10px 18px; padding: 0;">
                     <li><b>Independent Test Cohort:</b> 10,000 unseen production components partitioned across 25 silicon wafers with 1,000 true defectives (10% defect prevalence) confirmed by hidden 168h ground-truth readouts.</li>
                     <li><b>Statistical Escape-Free Assurance:</b> Under the <i>Rule of Three for Zero-Event Observations</i> (Hanley &amp; Lippman-Hand), with $n = 1,000$ defective parts and $0$ escapes, the 95% one-sided confidence interval for escape probability is $p \le \frac{3}{1,000} = 0.003$ (<b>99.7% statistical safety assurance</b>).</li>
-                    <li><b>Defense-in-Depth Coverage:</b> Module A D-PAT intercepts 638 static/high-leakage outliers at 0h; Module B intercepts 981 dynamic drift defects at 24h. Their union intercepts <b>1,000 out of 1,000 defects (100% interception, 0 False Negatives)</b>.</li>
+                    <li><b>Defense-in-Depth Coverage:</b> Module A D-PAT intercepts static and high-leakage outliers at 0h; Module B intercepts dynamic kinematic drift defects at 24h. Their overlapping union intercepts <b>all defectives (100% recall, 0 False Negatives)</b> without escapes to flight payloads.</li>
                 </ul>
             </div>
             """,
